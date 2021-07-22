@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+}
+
+
+#img-div {
+  background-image: 
+  url(https://images.unsplash.com/photo-1624896148450-549c35ce1ced?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2134&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: monospace;
+  font-weight: bold;
+  padding-bottom: 2.125rem;
+}
+
+p {
+  margin: 8px 0 5px 0;
+}
+
+#main-div {
+  max-width: 50%;
+  background: rgba(207, 123, 123, 0.5);
+  padding: 40px;
+  border-radius: 5px;
+  margin: 2.125rem auto 0 auto;
+  text-align: left;
+  color: rgb(31, 42, 55);
+  font-size: 20px;
+}
+
+#name {
+  box-sizing: content-box;
+  border-radius: 5px;
+  width: 100%;
+  padding: 5px;
+  margin: 8px 0 5px 0;
+}
+
+#email {
+  box-sizing: content-box;
+  border-radius: 5px;
+  width: 100%;
+  padding: 5px;
+  margin: 8px 0 5px 0;
+}
+
+#number {
+  box-sizing: content-box;
+  border-radius: 5px;
+  width: 100%;
+  padding: 5px;
+  margin: 8px 0 5px 0;
+}
+
+#dropdown {
+  box-sizing: content-box;
+  border-radius: 5px;
+  width: 100%;
+  padding: 5px;
+  margin: 8px 0 5px 0;
+}
+
+#submit {
+  box-sizing: content-box;
+  width: 100%;
+  padding: 8px;
+  color: rgb(207, 123, 123);
+  background: rgb(31, 42, 55);
+  cursor: pointer;
+  border: 0;
+  border-radius: 2px;
+}
+
+#submit:hover {
+  color: rgb(31, 42, 55);
+  background: rgb(207, 123, 123);
+}
+
+.text-center {
+  text-align: center;
+  color: rgb(207, 123, 123);
+  font-family: monospace;
+  padding-top: 2.125rem;
+}
+
+.form-group {
+  margin: 8px, 5px, 0, 8px;
+  padding: 7px;
+  font-weight: bold;
+}
+
+.radio-group {
+  margin: 8px, 15px, 5px, 8px;
+  padding: 7px;
+}
+
+.input-textarea {
+  box-sizing: content-box;
+  width: 100%;
+  min-height: 100px;
+  padding: 5px;
+  margin: 8px 0 5px 0;
+}
