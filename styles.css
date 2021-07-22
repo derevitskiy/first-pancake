@@ -1,5 +1,6 @@
 * {
     margin: 0;
+	
 }
 
 
@@ -27,6 +28,7 @@ p {
   margin: 2.125rem auto 0 auto;
   text-align: left;
   color: rgb(31, 42, 55);
+  
 }
 
 #name {
