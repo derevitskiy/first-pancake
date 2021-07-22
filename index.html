@@ -1,6 +1,73 @@
 <!DOCTYPE html>
-<html>
-<head>
-<p>Hello world. Im using Notepad++</p>
-</head>
+<html lang="en-us">
+  <title>Tribute survey form</title>
+  <head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  
+  <body>
+    <div id="img-div">
+      <h1 id="title" class="text-center">My tribute survey form</h1>
+      <p id="description" class="text-center">So, here we go again. Welcome.</p>
+    <div id="main-div">  
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" class="text-label">Your name:</label><br>
+          <input id="name" placeholder="Name, sister!" required> <br>
+        </div>
+        <div class="form-group">
+          <label id="email-label" class="text-label">E-mail:</label><br>
+          <input type="email" id="email" placeholder="Electical mail" required> <br>
+        </div>
+        <div class="form-group">
+          <label id="number-label" class="text-label">Years ago:</label><br>
+          <input type="number" id="number" min="0" max="40" placeholder="Too many years..." required><br>
+        </div>
+        <div class="form-group">
+          <label id="dropdown-label">Some question with dropdown list:</label> <br>
+          <select id="dropdown">
+            <option disabled="" selected="" value="">Select answer</option>
+            <option>answer 1</option>
+            <option>answer 2</option>
+            <option>answer 3</option>
+          </select>
+        </div>  
+        <div class="form-group">
+          <p>Select one option:</p>
+          <label>
+          <input type="radio" name="radio">
+            One  <br>
+          </label>
+          <label>
+          <input type="radio" name="radio">
+           Two <br>
+          </label>
+          <label>
+          <input type="radio" name="radio">
+           Three <br>
+          </label>  
+        </div>
+        <div class="form-group">
+          <p>Select some another option (one or more):</p>
+          <label>
+          <input type="checkbox">
+           One <br>
+          <input type="checkbox">
+           Two <br>
+          <input type="checkbox">
+          Three <br>
+          </label>
+        </div>
+        <div class="form-group">
+          <p>Comment:</p>
+          <textarea class="input-textarea" type="text" placeholder="Enter your comment here..."></textarea>
+        </div>
+        <div class="form-group">
+          <input id="submit" type="submit" value="Submit">
+        </div>
+      </form>
+    </div>  
+  </body>
 </html>
